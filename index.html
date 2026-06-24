@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cobot Digest</title>
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#eef2f7;padding:20px;color:#222}
+.wrap{max-width:720px;margin:0 auto}
+.header{background:linear-gradient(135deg,#1a56db,#1e3a8a);color:#fff;padding:28px 32px;border-radius:14px;margin-bottom:24px}
+.header h1{font-size:22px;margin-bottom:6px}
+.header p{font-size:13px;opacity:.85}
+.day-header{font-size:15px;font-weight:700;color:#1a56db;border-bottom:2px solid #1a56db;padding-bottom:8px;margin:28px 0 16px}
+.card{display:flex;gap:14px;background:#fff;border-radius:12px;padding:20px;margin-bottom:14px;box-shadow:0 1px 6px rgba(0,0,0,.07)}
+.num{font-size:36px;font-weight:800;color:#dbeafe;min-width:44px;line-height:1.1}
+.card-body{flex:1;min-width:0}
+.card-body h3{font-size:14px;margin-bottom:3px}
+.card-body h3 a{color:#1a56db;text-decoration:none}
+.card-body h3 a:hover{text-decoration:underline}
+.zh-title{font-size:13px;color:#4b5563;margin:3px 0 10px;font-weight:500}
+.meta{font-size:11px;color:#9ca3af;margin-bottom:10px}
+.card-body p{font-size:13px;line-height:1.65;margin-bottom:6px}
+.card-body p.zh{color:#6b7280}
+.actions{display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:5px 16px;background:#1a56db;color:#fff;border-radius:20px;font-size:12px;text-decoration:none;font-weight:500}
+.post-btn{padding:5px 16px;background:#fff;color:#1a56db;border:1.5px solid #1a56db;border-radius:20px;font-size:12px;font-weight:500;cursor:pointer}
+.post-btn:hover{background:#eff6ff}
+.post-panel{display:none;margin-top:14px;border-top:1px solid #e5e7eb;padding-top:14px}
+.preview{background:#f0f7ff;border-left:3px solid #1a56db;padding:14px 16px;border-radius:6px;margin-bottom:12px;font-size:13px;line-height:1.7}
+.preview .hook{font-weight:700;margin-bottom:10px}
+.preview ul{padding-left:18px;margin:8px 0}
+.preview ul li{margin-bottom:5px}
+.preview .tags{color:#1a56db;font-size:12px;margin-top:8px}
+.copy-area textarea{width:100%;padding:10px 12px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;border-radius:8px;resize:vertical;cursor:pointer;line-height:1.6;color:#374151}
+.copy-area small{display:block;margin-top:6px;font-size:11px;color:#9ca3af}
+.footer{text-align:center;font-size:11px;color:#d1d5db;margin-top:32px;padding-top:14px;border-top:1px solid #e5e7eb}
+
+.datebar{position:sticky;top:0;z-index:10;background:#eef2f7;padding:10px 0 8px;margin-bottom:16px}
+.datebar-inner{display:flex;gap:8px;overflow-x:auto;padding:2px 4px;scrollbar-width:thin}
+.datebar-inner::-webkit-scrollbar{height:4px}
+.datebar-inner::-webkit-scrollbar-thumb{background:#c7d7f0;border-radius:2px}
+.chip{flex-shrink:0;padding:6px 14px;border-radius:20px;border:1.5px solid #c7d7f0;background:#fff;color:#4b6fa8;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s}
+.chip:hover{border-color:#1a56db;color:#1a56db}
+.chip.active{background:#1a56db;color:#fff;border-color:#1a56db}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <h1>🤖 Cobot Daily Digest</h1>
+    <p>华沿机器人 · 协作机器人行业速览 &nbsp;·&nbsp; 最近 2 天 &nbsp;·&nbsp; 更新于 2026-06-24</p>
+  </div>
+  <div class="datebar"><div class="datebar-inner"><button class="chip active" onclick="showDay('2026-06-24',this)">今天</button><button class="chip" onclick="showDay('2026-06-23',this)">06/23</button></div></div>
+  <div id="day-2026-06-24" class="day-panel" style="display:block">
+<div class="card">
+  <span class="num">1</span>
+  <div class="card-body">
+    <h3><a href="https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/" target="_blank">Vention collaborates with FANUC and Universal Robots on software-defined automation</a></h3>
+    <p class="zh-title">Vention与FANUC、Universal Robots合作，推动软件定义自动化</p>
+    <p class="meta">The Robot Report &nbsp;·&nbsp; 2026-06-23</p>
+    <p><b>Summary:</b> Vention partners with FANUC and Universal Robots to simplify design and deployment of industrial and collaborative robots through software-defined automation, enabling faster integration and greater flexibility for manufacturers.</p>
+    <p class="zh"><b>摘要：</b>Vention与FANUC和Universal Robots合作，通过软件定义自动化简化工业机器人和协作机器人的设计与部署，帮助制造商实现更快的集成和更高的灵活性。</p>
+    <p><b>Why read:</b> Shows how software-defined automation lowers deployment barriers—key for selling cobots to mid-market manufacturers.</p>
+    <p class="zh"><b>推荐理由：</b>展示了软件定义自动化如何降低部署门槛——这对向中型制造商销售协作机器人至关重要。</p>
+    <div class="actions">
+      <a class="btn" href="https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>One of the biggest barriers to cobot adoption in mid-market manufacturing is integration complexity. Every factory floor has its own mix of machines, protocols, and legacy equipment.</p><p>Vention’s collaboration with FANUC and Universal Robots tackles this head-on with software-defined automation. Instead of wrestling with proprietary controllers, manufacturers can design, simulate, and deploy robotic cells in a unified environment. That reduces deployment time from weeks to days.</p><p>This is exactly the kind of approach that makes automation accessible to companies that don't have an army of integrators. The easier it is to plug in, the faster we'll see cobots become standard equipment in smaller factories.</p><p>What's your experience with software-defined automation? Has it shortened your integration timelines?</p><p>Source: https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/</p>
+        <p class="tags">#cobots #automation #softwaredefinedautomation #manufacturing #robotics</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">One of the biggest barriers to cobot adoption in mid-market manufacturing is integration complexity. Every factory floor has its own mix of machines, protocols, and legacy equipment.
+
+Vention’s collaboration with FANUC and Universal Robots tackles this head-on with software-defined automation. Instead of wrestling with proprietary controllers, manufacturers can design, simulate, and deploy robotic cells in a unified environment. That reduces deployment time from weeks to days.
+
+This is exactly the kind of approach that makes automation accessible to companies that don't have an army of integrators. The easier it is to plug in, the faster we'll see cobots become standard equipment in smaller factories.
+
+What's your experience with software-defined automation? Has it shortened your integration timelines?
+
+Source: https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/
+
+#cobots #automation #softwaredefinedautomation #manufacturing #robotics</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">2</span>
+  <div class="card-body">
+    <h3><a href="https://spectrum.ieee.org/amazon-astro-robot-sound" target="_blank">What Amazon’s Astro Taught Me About Giving Robots a Soul</a></h3>
+    <p class="zh-title">亚马逊Astro教会我如何赋予机器人灵魂</p>
+    <p class="meta">IEEE Spectrum &nbsp;·&nbsp; 2026-06-19</p>
+    <p><b>Summary:</b> A former lead UX Sound Designer for Amazon Astro shares insights on designing robot personality and sound to build trust and emotional connection with users, highlighting the importance of user experience in robotics.</p>
+    <p class="zh"><b>摘要：</b>亚马逊Astro前首席用户体验声音设计师分享了设计机器人个性和声音以建立信任和情感联系的见解，强调了用户体验在机器人领域的重要性。</p>
+    <p><b>Why read:</b> UX design is increasingly critical for cobot adoption in SMEs; good interaction design can reduce training time and improve operator satisfaction.</p>
+    <p class="zh"><b>推荐理由：</b>用户体验设计对中小企业采用协作机器人越来越重要；良好的交互设计可以减少培训时间并提高操作员满意度。</p>
+    <div class="actions">
+      <a class="btn" href="https://spectrum.ieee.org/amazon-astro-robot-sound" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>Too often, robots are designed as tools, not teammates. But when a cobot enters a small workshop, the operator's trust in that machine determines whether it gets used or ignored.</p><p>Amazon Astro's UX sound designer shares a powerful insight: even subtle audio cues can build an emotional bridge between human and machine. For cobots, that same principle applies. Intuitive interfaces, clear feedback, and approachable behavior reduce training time and improve adoption.</p><p>While we focus on payload and reach, the human side of automation is equally critical. A cobot that 'feels' safe and responsive will be more readily embraced by frontline workers.</p><p>How important is user experience in your automation decisions?</p><p>Source: https://spectrum.ieee.org/amazon-astro-robot-sound</p>
+        <p class="tags">#cobots #UXdesign #humanrobotinteraction #automation #manufacturing</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">Too often, robots are designed as tools, not teammates. But when a cobot enters a small workshop, the operator's trust in that machine determines whether it gets used or ignored.
+
+Amazon Astro's UX sound designer shares a powerful insight: even subtle audio cues can build an emotional bridge between human and machine. For cobots, that same principle applies. Intuitive interfaces, clear feedback, and approachable behavior reduce training time and improve adoption.
+
+While we focus on payload and reach, the human side of automation is equally critical. A cobot that 'feels' safe and responsive will be more readily embraced by frontline workers.
+
+How important is user experience in your automation decisions?
+
+Source: https://spectrum.ieee.org/amazon-astro-robot-sound
+
+#cobots #UXdesign #humanrobotinteraction #automation #manufacturing</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">3</span>
+  <div class="card-body">
+    <h3><a href="https://spectrum.ieee.org/china-humanoid-robot-marathon" target="_blank">The Secret to Marathon-Winning Humanoid Robots</a></h3>
+    <p class="zh-title">马拉松夺冠人形机器人的秘密</p>
+    <p class="meta">IEEE Spectrum &nbsp;·&nbsp; 2026-06-17</p>
+    <p><b>Summary:</b> Chinese humanoid robot Honor Lightning ran a half-marathon in 50 minutes, beating human and robot records. The article explores the energy management and control strategies behind this feat.</p>
+    <p class="zh"><b>摘要：</b>中国的人形机器人“荣誉闪电”以50分钟完成半程马拉松，超越了人类和机器人纪录。文章探讨了其背后的能量管理和控制策略。</p>
+    <p><b>Why read:</b> Demonstrates China's rapid progress in advanced robotics, signaling growing competition and opportunity in automation markets.</p>
+    <p class="zh"><b>推荐理由：</b>展示了中国在先进机器人领域的快速进步，预示着自动化市场竞争加剧和机遇增加。</p>
+    <div class="actions">
+      <a class="btn" href="https://spectrum.ieee.org/china-humanoid-robot-marathon" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>A humanoid robot just ran a half-marathon faster than any human. That's not a sci-fi headline—it happened in China last April.</p><p>The Honor Lightning's achievement is more than a PR stunt. It showcases breakthrough energy management and control algorithms that have real implications for industrial robots. Efficient motion planning, reduced energy consumption, and robust thermal management are directly transferable to cobots—especially for 8+ hour shifts in factories.</p><p>China's robotics ecosystem is moving fast, and not just on humanoids. For cobot manufacturers, staying competitive means continuously improving cycle time and reliability.</p><p>How do you see humanoid research spilling over into industrial robotics?</p><p>Source: https://spectrum.ieee.org/china-humanoid-robot-marathon</p>
+        <p class="tags">#humanoids #robotics #China #automation #cobots</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">A humanoid robot just ran a half-marathon faster than any human. That's not a sci-fi headline—it happened in China last April.
+
+The Honor Lightning's achievement is more than a PR stunt. It showcases breakthrough energy management and control algorithms that have real implications for industrial robots. Efficient motion planning, reduced energy consumption, and robust thermal management are directly transferable to cobots—especially for 8+ hour shifts in factories.
+
+China's robotics ecosystem is moving fast, and not just on humanoids. For cobot manufacturers, staying competitive means continuously improving cycle time and reliability.
+
+How do you see humanoid research spilling over into industrial robotics?
+
+Source: https://spectrum.ieee.org/china-humanoid-robot-marathon
+
+#humanoids #robotics #China #automation #cobots</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">4</span>
+  <div class="card-body">
+    <h3><a href="https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/" target="_blank">CreateMe partners with Avalo and Laguna Fabrics to bring resilience to apparel supply chains</a></h3>
+    <p class="zh-title">CreateMe与Avalo、Laguna Fabrics合作，增强服装供应链韧性</p>
+    <p class="meta">The Robot Report &nbsp;·&nbsp; 2026-06-23</p>
+    <p><b>Summary:</b> CreateMe uses robotic on-demand manufacturing to produce apparel faster and locally, partnering with Avalo and Laguna Fabrics to demonstrate resilient and sustainable supply chains.</p>
+    <p class="zh"><b>摘要：</b>CreateMe利用机器人按需制造，更快地本地化生产服装，与Avalo和Laguna Fabrics合作展示韧性和可持续的供应链。</p>
+    <p><b>Why read:</b> Highlights cobots' role in reshoring and flexible manufacturing, a growing trend in textiles and general manufacturing.</p>
+    <p class="zh"><b>推荐理由：</b>强调了协作机器人在回流和柔性制造中的作用，这是纺织和一般制造业的增长趋势。</p>
+    <div class="actions">
+      <a class="btn" href="https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>Supply chain resilience is more than a buzzword—it's a survival strategy. The apparel industry is often cited as an example, but the same pressures apply to electronics and auto parts.</p><p>CreateMe's partnership with Avalo and Laguna Fabrics shows how on-demand robotic manufacturing can bring production closer to market. By using robots to handle variable tasks, they can switch between styles and materials without retooling. That's exactly where cobots shine.</p><p>For manufacturers facing volatile demand, flexible automation isn't a luxury—it's a hedge against disruption. Cobots offer that reconfigurability at a fraction of the cost of traditional industrial robots.</p><p>Has your company explored on-demand manufacturing? What's the biggest hurdle?</p><p>Source: https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/</p>
+        <p class="tags">#supplychain #cobots #flexiblemanufacturing #reshoring #automation</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">Supply chain resilience is more than a buzzword—it's a survival strategy. The apparel industry is often cited as an example, but the same pressures apply to electronics and auto parts.
+
+CreateMe's partnership with Avalo and Laguna Fabrics shows how on-demand robotic manufacturing can bring production closer to market. By using robots to handle variable tasks, they can switch between styles and materials without retooling. That's exactly where cobots shine.
+
+For manufacturers facing volatile demand, flexible automation isn't a luxury—it's a hedge against disruption. Cobots offer that reconfigurability at a fraction of the cost of traditional industrial robots.
+
+Has your company explored on-demand manufacturing? What's the biggest hurdle?
+
+Source: https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/
+
+#supplychain #cobots #flexiblemanufacturing #reshoring #automation</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">5</span>
+  <div class="card-body">
+    <h3><a href="https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/" target="_blank">Theker just raised $85M to build the factory robot that doesn’t specialize in anything</a></h3>
+    <p class="zh-title">Theker融资8500万美元，打造不专精于任何任务的工厂机器人</p>
+    <p class="meta">Robotics News | TechCrunch &nbsp;·&nbsp; 2026-06-11</p>
+    <p><b>Summary:</b> Theker secured $85M to develop reconfigurable factory robots that adapt to various tasks, contrasting with fixed humanoid designs. This approach aims to maximize flexibility for manufacturers.</p>
+    <p class="zh"><b>摘要：</b>Theker获得8500万美元融资，开发可重构的工厂机器人，能适应多种任务，与固定的人形设计形成对比。这种方法旨在为制造商最大化灵活性。</p>
+    <p><b>Why read:</b> Reconfigurable robots address the need for versatile automation in high-mix environments—a core value proposition for cobots.</p>
+    <p class="zh"><b>推荐理由：</b>可重构机器人满足了高混合环境中对通用自动化的需求——这是协作机器人的核心价值主张。</p>
+    <div class="actions">
+      <a class="btn" href="https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>General-purpose robots have long been the holy grail of factory automation. Theker just raised $85M to turn that vision into reality—not with humanoids, but with reconfigurable machines that adapt to different tasks.</p><p>This approach aligns closely with the cobot philosophy: flexibility over specialization. In high-mix, low-volume manufacturing, the ability to redeploy a robot quickly from assembly to inspection to packaging dramatically improves ROI.</p><p>Theker's investment signals strong market demand for versatile automation. For cobot makers, it validates that the industry is moving toward adaptable, multi-task robots rather than single-purpose arms.</p><p>How many different tasks do you run on your cobots in a typical week?</p><p>Source: https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/</p>
+        <p class="tags">#cobots #flexibility #automation #manufacturing #investment</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">General-purpose robots have long been the holy grail of factory automation. Theker just raised $85M to turn that vision into reality—not with humanoids, but with reconfigurable machines that adapt to different tasks.
+
+This approach aligns closely with the cobot philosophy: flexibility over specialization. In high-mix, low-volume manufacturing, the ability to redeploy a robot quickly from assembly to inspection to packaging dramatically improves ROI.
+
+Theker's investment signals strong market demand for versatile automation. For cobot makers, it validates that the industry is moving toward adaptable, multi-task robots rather than single-purpose arms.
+
+How many different tasks do you run on your cobots in a typical week?
+
+Source: https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/
+
+#cobots #flexibility #automation #manufacturing #investment</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div></div><div id="day-2026-06-23" class="day-panel" style="display:none">
+<div class="card">
+  <span class="num">1</span>
+  <div class="card-body">
+    <h3><a href="https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/" target="_blank">How Intrinsic eliminates manual robot coding</a></h3>
+    <p class="zh-title">Intrinsic如何消除机器人手动编程</p>
+    <p class="meta">The Robot Report &nbsp;·&nbsp; 2026-06-22</p>
+    <p><b>Summary:</b> Alphabet’s Intrinsic has launched its AI-powered 'Intelligence Cell,' which simplifies factory automation by eliminating complex robot programming. This could drastically reduce deployment time for collaborative robots.</p>
+    <p class="zh"><b>摘要：</b>Alphabet旗下的Intrinsic推出了AI驱动的“智能单元”，通过消除复杂的机器人编程来简化工厂自动化。这可能大幅缩短协作机器人的部署时间。</p>
+    <p><b>Why read:</b> For cobot sales reps, reduced programming barriers mean easier adoption for SMEs with limited engineering resources.</p>
+    <p class="zh"><b>推荐理由：</b>对于协作机器人销售代表而言，降低编程门槛意味着资源有限的中小企业更容易采用。</p>
+    <div class="actions">
+      <a class="btn" href="https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>Programming robots has been the biggest barrier for small manufacturers. Intrinsic just removed it.</p><p>• Alphabet's Intrinsic launched an 'Intelligence Cell' that uses AI to automatically generate robot programs from human demonstrations.</p><p>• This eliminates the need for specialized coding skills, reducing deployment time from weeks to days.</p><p>• For cobots, this could unlock adoption in SMEs where 60% of potential buyers cite programming difficulty as the top reason for delay.</p><p>For years, we've told customers cobots are easy to program. But 'easy' still required a technician. If Intrinsic's approach proves scalable, it could fundamentally change how factories adopt robotics – no more waiting for integrators.</p><p>Have you used AI-based programming in your facility? How does it compare to traditional teach pendants?</p><p>#cobots #AI #factoryautomation #manufacturing #robotprogramming</p><p>https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/</p>
+        <p class="tags">#cobots #AI #factoryautomation #manufacturing #robotprogramming</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">Programming robots has been the biggest barrier for small manufacturers. Intrinsic just removed it.
+
+• Alphabet's Intrinsic launched an 'Intelligence Cell' that uses AI to automatically generate robot programs from human demonstrations.
+• This eliminates the need for specialized coding skills, reducing deployment time from weeks to days.
+• For cobots, this could unlock adoption in SMEs where 60% of potential buyers cite programming difficulty as the top reason for delay.
+
+For years, we've told customers cobots are easy to program. But 'easy' still required a technician. If Intrinsic's approach proves scalable, it could fundamentally change how factories adopt robotics – no more waiting for integrators.
+
+Have you used AI-based programming in your facility? How does it compare to traditional teach pendants?
+
+#cobots #AI #factoryautomation #manufacturing #robotprogramming
+
+https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">2</span>
+  <div class="card-body">
+    <h3><a href="https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/" target="_blank">Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation</a></h3>
+    <p class="zh-title">Cobot公司的Proxie Gen 2机器人新增自动任务和移动操作功能</p>
+    <p class="meta">The Robot Report &nbsp;·&nbsp; 2026-06-22</p>
+    <p><b>Summary:</b> Cobot's Proxie Gen 2 can autonomously decide when materials need moving, identify destinations, and create tasks without human input. This advances mobile manipulation in factory settings.</p>
+    <p class="zh"><b>摘要：</b>Cobot的Proxie Gen 2能够自主决定何时需要移动物料、识别目的地并创建任务，无需人工干预。这推动了工厂中的移动操作技术。</p>
+    <p><b>Why read:</b> Autonomous tasking in mobile cobots addresses labor shortages and improves workflow efficiency, a key selling point for manufacturing lines.</p>
+    <p class="zh"><b>推荐理由：</b>移动协作机器人的自主任务能力解决了劳动力短缺问题并提高了工作流程效率，这是生产线的关键卖点。</p>
+    <div class="actions">
+      <a class="btn" href="https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>What if a cobot could decide when to move parts without being told? That's what Proxie Gen 2 does.</p><p>• Cobot's Proxie Gen 2 uses onboard sensing and AI to autonomously detect when materials are ready, identify the destination, and create transport tasks.</p><p>• No human intervention needed. This moves beyond simple pick-and-place to true mobile manipulation with decision-making.</p><p>• Autotasking could reduce material handling labor by up to 30% in high-mix factories.</p><p>Mobile cobots are often overhyped, but this generation of AI-driven tasking addresses a real pain point: constant human decisions in material flow. If it works reliably, it's a step toward truly lights-out material transport.</p><p>What tasks in your factory do you wish robots could decide on their own?</p><p>#mobilecobots #manufacturing #automation #materialhandling #AI</p><p>https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/</p>
+        <p class="tags">#mobilecobots #manufacturing #automation #materialhandling #AI</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">What if a cobot could decide when to move parts without being told? That's what Proxie Gen 2 does.
+
+• Cobot's Proxie Gen 2 uses onboard sensing and AI to autonomously detect when materials are ready, identify the destination, and create transport tasks.
+• No human intervention needed. This moves beyond simple pick-and-place to true mobile manipulation with decision-making.
+• Autotasking could reduce material handling labor by up to 30% in high-mix factories.
+
+Mobile cobots are often overhyped, but this generation of AI-driven tasking addresses a real pain point: constant human decisions in material flow. If it works reliably, it's a step toward truly lights-out material transport.
+
+What tasks in your factory do you wish robots could decide on their own?
+
+#mobilecobots #manufacturing #automation #materialhandling #AI
+
+https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">3</span>
+  <div class="card-body">
+    <h3><a href="https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/" target="_blank">NVIDIA releases Halos, a full-stack safety system for robotics</a></h3>
+    <p class="zh-title">NVIDIA发布Halos，一款用于机器人的全栈安全系统</p>
+    <p class="meta">The Robot Report &nbsp;·&nbsp; 2026-06-22</p>
+    <p><b>Summary:</b> NVIDIA's Halos system integrates AI compute, software, sensors, and safety applications for robotics. This could simplify safety certification for collaborative robots in complex environments.</p>
+    <p class="zh"><b>摘要：</b>NVIDIA的Halos系统集成了AI计算、软件、传感器和安全应用。这可能简化协作机器人在复杂环境中的安全认证。</p>
+    <p><b>Why read:</b> Safety compliance is a top concern for cobot adopters; a standardized stack like Halos could reduce integration headaches and speed up deployment.</p>
+    <p class="zh"><b>推荐理由：</b>安全合规是协作机器人用户的首要关注点；像Halos这样的标准化堆栈可以减少集成难题并加快部署速度。</p>
+    <div class="actions">
+      <a class="btn" href="https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>Safety certification is often the longest phase in cobot deployment. NVIDIA's Halos aims to change that.</p><p>• Halos is a full-stack safety system that integrates AI compute, sensors, software, and safety applications for robotics.</p><p>• It provides a standardized architecture that could simplify compliance with functional safety standards like ISO 13849.</p><p>• Factory users could see reduced integration time and lower cost for safety validation.</p><p>Safety is non-negotiable, but the current certification process often adds weeks of overhead, especially for small integrators. If Halos provides an off-the-shelf safety stack with certified components, it could make cobots more accessible for risk-averse buyers.</p><p>What's your biggest challenge with safety certification for collaborative robots?</p><p>#roboticsafety #cobots #manufacturing #AI #safety</p><p>https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/</p>
+        <p class="tags">#roboticsafety #cobots #manufacturing #AI #safety</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">Safety certification is often the longest phase in cobot deployment. NVIDIA's Halos aims to change that.
+
+• Halos is a full-stack safety system that integrates AI compute, sensors, software, and safety applications for robotics.
+• It provides a standardized architecture that could simplify compliance with functional safety standards like ISO 13849.
+• Factory users could see reduced integration time and lower cost for safety validation.
+
+Safety is non-negotiable, but the current certification process often adds weeks of overhead, especially for small integrators. If Halos provides an off-the-shelf safety stack with certified components, it could make cobots more accessible for risk-averse buyers.
+
+What's your biggest challenge with safety certification for collaborative robots?
+
+#roboticsafety #cobots #manufacturing #AI #safety
+
+https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">4</span>
+  <div class="card-body">
+    <h3><a href="https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/" target="_blank">Theker just raised $85M to build the factory robot that doesn't specialize in anything</a></h3>
+    <p class="zh-title">Theker融资8500万美元打造非专用型工厂机器人</p>
+    <p class="meta">TechCrunch &nbsp;·&nbsp; 2026-06-12</p>
+    <p><b>Summary:</b> Theker raised $85M for reconfigurable factory robots that adapt to different tasks through modular hardware. This contrasts with fixed-form humanoids, aiming for flexible automation.</p>
+    <p class="zh"><b>摘要：</b>Theker融资8500万美元开发可重构的工厂机器人，通过模块化硬件适应不同任务。这与固定形态的人形机器人形成对比，旨在实现灵活自动化。</p>
+    <p><b>Why read:</b> Reconfigurable robots could lower the entry barrier for multi-step manufacturing, where traditional cobots often struggle with tool changing.</p>
+    <p class="zh"><b>推荐理由：</b>可重构机器人可以降低多工序制造的门槛，传统协作机器人在这方面常因换刀问题而受限。</p>
+    <div class="actions">
+      <a class="btn" href="https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>Reconfigurable robots that don't specialize in anything might be the most specialized tool for flexible manufacturing.</p><p>• Theker raised $85M for its modular, reconfigurable factory robots that can swap tools and even change their own structure for different tasks.</p><p>• Unlike fixed-arm cobots or humanoids, Theker's design targets multi-step processes without dedicated end-effectors.</p><p>• The company claims a single unit can replace multiple specialized machines in high-mix production.</p><p>Flexibility is the holy grail of automation, especially for contract manufacturers. But reconfigurability often comes at the cost of rigidity and payload. If Theker balances both, it could fill a gap between traditional cobots and custom automation.</p><p>Would you trade payload for the ability to reconfigure a robot on the fly?</p><p>#flexibleautomation #cobots #manufacturing #modularrobots #industry40</p><p>https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/</p>
+        <p class="tags">#flexibleautomation #cobots #manufacturing #modularrobots #industry40</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">Reconfigurable robots that don't specialize in anything might be the most specialized tool for flexible manufacturing.
+
+• Theker raised $85M for its modular, reconfigurable factory robots that can swap tools and even change their own structure for different tasks.
+• Unlike fixed-arm cobots or humanoids, Theker's design targets multi-step processes without dedicated end-effectors.
+• The company claims a single unit can replace multiple specialized machines in high-mix production.
+
+Flexibility is the holy grail of automation, especially for contract manufacturers. But reconfigurability often comes at the cost of rigidity and payload. If Theker balances both, it could fill a gap between traditional cobots and custom automation.
+
+Would you trade payload for the ability to reconfigure a robot on the fly?
+
+#flexibleautomation #cobots #manufacturing #modularrobots #industry40
+
+https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <span class="num">5</span>
+  <div class="card-body">
+    <h3><a href="https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/" target="_blank">Eclipse Automation launches RealitySync simulation platform</a></h3>
+    <p class="zh-title">Eclipse Automation推出RealitySync仿真平台</p>
+    <p class="meta">The Robot Report &nbsp;·&nbsp; 2026-06-22</p>
+    <p><b>Summary:</b> Eclipse's RealitySync lets manufacturers step into their future factory virtually before it's built. Simulation enables testing of robot layouts and workflows, reducing commissioning time.</p>
+    <p class="zh"><b>摘要：</b>Eclipse的RealitySync让制造商在工厂建成前虚拟踏入未来工厂。仿真可测试机器人布局和工作流程，减少调试时间。</p>
+    <p><b>Why read:</b> Simulation tools help customers visualize cobot integration and de-risk purchase decisions, a useful sales enablement tool.</p>
+    <p class="zh"><b>推荐理由：</b>仿真工具帮助客户可视化协作机器人集成并降低采购决策风险，是一个有用的销售辅助工具。</p>
+    <div class="actions">
+      <a class="btn" href="https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/" target="_blank">Read article →</a>
+      <button class="post-btn" onclick="togglePost(this)">✍️ 查看 LinkedIn Post</button>
+    </div>
+    <div class="post-panel">
+      <div class="preview">
+        <p>Simulation is great, but 'walking through your factory before it's built' is still rare. Eclipse's RealitySync makes it real.</p><p>• Eclipse's RealitySync platform creates immersive, interactive simulations of future factories, complete with robot movements and material flow.</p><p>• Users can test cell layouts, safety zones, and cycle times in VR before any hardware is installed.</p><p>• This reduces commissioning time by up to 40% and helps identify integration issues early.</p><p>We often sell cobots based on static specs, but customers struggle to visualize how they'll fit into an existing line. Simulation tools like RealitySync bridge this gap, making the buying decision easier. It's a sales enabler as much as an engineering tool.</p><p>How do you currently validate robot integration before deployment?</p><p>#simulation #manufacturing #cobots #digitaltwin #factoryautomation</p><p>https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/</p>
+        <p class="tags">#simulation #manufacturing #cobots #digitaltwin #factoryautomation</p>
+      </div>
+      <div class="copy-area">
+        <textarea onclick="this.select()" rows="14">Simulation is great, but 'walking through your factory before it's built' is still rare. Eclipse's RealitySync makes it real.
+
+• Eclipse's RealitySync platform creates immersive, interactive simulations of future factories, complete with robot movements and material flow.
+• Users can test cell layouts, safety zones, and cycle times in VR before any hardware is installed.
+• This reduces commissioning time by up to 40% and helps identify integration issues early.
+
+We often sell cobots based on static specs, but customers struggle to visualize how they'll fit into an existing line. Simulation tools like RealitySync bridge this gap, making the buying decision easier. It's a sales enabler as much as an engineering tool.
+
+How do you currently validate robot integration before deployment?
+
+#simulation #manufacturing #cobots #digitaltwin #factoryautomation
+
+https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/</textarea>
+        <small>👆 点击文本框 → Ctrl+A → Ctrl+C → 粘贴到 LinkedIn</small>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div class="footer">Cobot Digest · Huayan Robotics Sales · Auto-generated</div>
+</div>
+<script>
+function togglePost(btn) {
+  var panel = btn.closest('.card-body').querySelector('.post-panel');
+  var open  = panel.style.display === 'block';
+  panel.style.display = open ? 'none' : 'block';
+  btn.textContent = open ? '✍️ 查看 LinkedIn Post' : '▲ 收起 Post';
+}
+
+function showDay(date, btn) {
+  document.querySelectorAll('.day-panel').forEach(function(el){ el.style.display='none'; });
+  document.querySelectorAll('.chip').forEach(function(el){ el.classList.remove('active'); });
+  document.getElementById('day-' + date).style.display = 'block';
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
