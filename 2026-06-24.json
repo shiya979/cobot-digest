@@ -1,0 +1,116 @@
+{
+  "digest": [
+    {
+      "title_en": "Vention collaborates with FANUC and Universal Robots on software-defined automation",
+      "title_zh": "Vention与FANUC、Universal Robots合作，推动软件定义自动化",
+      "source": "The Robot Report",
+      "date": "2026-06-23",
+      "summary_en": "Vention partners with FANUC and Universal Robots to simplify design and deployment of industrial and collaborative robots through software-defined automation, enabling faster integration and greater flexibility for manufacturers.",
+      "summary_zh": "Vention与FANUC和Universal Robots合作，通过软件定义自动化简化工业机器人和协作机器人的设计与部署，帮助制造商实现更快的集成和更高的灵活性。",
+      "why_en": "Shows how software-defined automation lowers deployment barriers—key for selling cobots to mid-market manufacturers.",
+      "why_zh": "展示了软件定义自动化如何降低部署门槛——这对向中型制造商销售协作机器人至关重要。",
+      "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/"
+    },
+    {
+      "title_en": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+      "title_zh": "亚马逊Astro教会我如何赋予机器人灵魂",
+      "source": "IEEE Spectrum",
+      "date": "2026-06-19",
+      "summary_en": "A former lead UX Sound Designer for Amazon Astro shares insights on designing robot personality and sound to build trust and emotional connection with users, highlighting the importance of user experience in robotics.",
+      "summary_zh": "亚马逊Astro前首席用户体验声音设计师分享了设计机器人个性和声音以建立信任和情感联系的见解，强调了用户体验在机器人领域的重要性。",
+      "why_en": "UX design is increasingly critical for cobot adoption in SMEs; good interaction design can reduce training time and improve operator satisfaction.",
+      "why_zh": "用户体验设计对中小企业采用协作机器人越来越重要；良好的交互设计可以减少培训时间并提高操作员满意度。",
+      "url": "https://spectrum.ieee.org/amazon-astro-robot-sound"
+    },
+    {
+      "title_en": "The Secret to Marathon-Winning Humanoid Robots",
+      "title_zh": "马拉松夺冠人形机器人的秘密",
+      "source": "IEEE Spectrum",
+      "date": "2026-06-17",
+      "summary_en": "Chinese humanoid robot Honor Lightning ran a half-marathon in 50 minutes, beating human and robot records. The article explores the energy management and control strategies behind this feat.",
+      "summary_zh": "中国的人形机器人“荣誉闪电”以50分钟完成半程马拉松，超越了人类和机器人纪录。文章探讨了其背后的能量管理和控制策略。",
+      "why_en": "Demonstrates China's rapid progress in advanced robotics, signaling growing competition and opportunity in automation markets.",
+      "why_zh": "展示了中国在先进机器人领域的快速进步，预示着自动化市场竞争加剧和机遇增加。",
+      "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon"
+    },
+    {
+      "title_en": "CreateMe partners with Avalo and Laguna Fabrics to bring resilience to apparel supply chains",
+      "title_zh": "CreateMe与Avalo、Laguna Fabrics合作，增强服装供应链韧性",
+      "source": "The Robot Report",
+      "date": "2026-06-23",
+      "summary_en": "CreateMe uses robotic on-demand manufacturing to produce apparel faster and locally, partnering with Avalo and Laguna Fabrics to demonstrate resilient and sustainable supply chains.",
+      "summary_zh": "CreateMe利用机器人按需制造，更快地本地化生产服装，与Avalo和Laguna Fabrics合作展示韧性和可持续的供应链。",
+      "why_en": "Highlights cobots' role in reshoring and flexible manufacturing, a growing trend in textiles and general manufacturing.",
+      "why_zh": "强调了协作机器人在回流和柔性制造中的作用，这是纺织和一般制造业的增长趋势。",
+      "url": "https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/"
+    },
+    {
+      "title_en": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
+      "title_zh": "Theker融资8500万美元，打造不专精于任何任务的工厂机器人",
+      "source": "Robotics News | TechCrunch",
+      "date": "2026-06-11",
+      "summary_en": "Theker secured $85M to develop reconfigurable factory robots that adapt to various tasks, contrasting with fixed humanoid designs. This approach aims to maximize flexibility for manufacturers.",
+      "summary_zh": "Theker获得8500万美元融资，开发可重构的工厂机器人，能适应多种任务，与固定的人形设计形成对比。这种方法旨在为制造商最大化灵活性。",
+      "why_en": "Reconfigurable robots address the need for versatile automation in high-mix environments—a core value proposition for cobots.",
+      "why_zh": "可重构机器人满足了高混合环境中对通用自动化的需求——这是协作机器人的核心价值主张。",
+      "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/"
+    }
+  ],
+  "linkedin_posts": [
+    {
+      "full_text": "One of the biggest barriers to cobot adoption in mid-market manufacturing is integration complexity. Every factory floor has its own mix of machines, protocols, and legacy equipment.\n\nVention’s collaboration with FANUC and Universal Robots tackles this head-on with software-defined automation. Instead of wrestling with proprietary controllers, manufacturers can design, simulate, and deploy robotic cells in a unified environment. That reduces deployment time from weeks to days.\n\nThis is exactly the kind of approach that makes automation accessible to companies that don't have an army of integrators. The easier it is to plug in, the faster we'll see cobots become standard equipment in smaller factories.\n\nWhat's your experience with software-defined automation? Has it shortened your integration timelines?\n\nSource: https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/",
+      "hashtags": [
+        "cobots",
+        "automation",
+        "softwaredefinedautomation",
+        "manufacturing",
+        "robotics"
+      ],
+      "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/"
+    },
+    {
+      "full_text": "Too often, robots are designed as tools, not teammates. But when a cobot enters a small workshop, the operator's trust in that machine determines whether it gets used or ignored.\n\nAmazon Astro's UX sound designer shares a powerful insight: even subtle audio cues can build an emotional bridge between human and machine. For cobots, that same principle applies. Intuitive interfaces, clear feedback, and approachable behavior reduce training time and improve adoption.\n\nWhile we focus on payload and reach, the human side of automation is equally critical. A cobot that 'feels' safe and responsive will be more readily embraced by frontline workers.\n\nHow important is user experience in your automation decisions?\n\nSource: https://spectrum.ieee.org/amazon-astro-robot-sound",
+      "hashtags": [
+        "cobots",
+        "UXdesign",
+        "humanrobotinteraction",
+        "automation",
+        "manufacturing"
+      ],
+      "url": "https://spectrum.ieee.org/amazon-astro-robot-sound"
+    },
+    {
+      "full_text": "A humanoid robot just ran a half-marathon faster than any human. That's not a sci-fi headline—it happened in China last April.\n\nThe Honor Lightning's achievement is more than a PR stunt. It showcases breakthrough energy management and control algorithms that have real implications for industrial robots. Efficient motion planning, reduced energy consumption, and robust thermal management are directly transferable to cobots—especially for 8+ hour shifts in factories.\n\nChina's robotics ecosystem is moving fast, and not just on humanoids. For cobot manufacturers, staying competitive means continuously improving cycle time and reliability.\n\nHow do you see humanoid research spilling over into industrial robotics?\n\nSource: https://spectrum.ieee.org/china-humanoid-robot-marathon",
+      "hashtags": [
+        "humanoids",
+        "robotics",
+        "China",
+        "automation",
+        "cobots"
+      ],
+      "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon"
+    },
+    {
+      "full_text": "Supply chain resilience is more than a buzzword—it's a survival strategy. The apparel industry is often cited as an example, but the same pressures apply to electronics and auto parts.\n\nCreateMe's partnership with Avalo and Laguna Fabrics shows how on-demand robotic manufacturing can bring production closer to market. By using robots to handle variable tasks, they can switch between styles and materials without retooling. That's exactly where cobots shine.\n\nFor manufacturers facing volatile demand, flexible automation isn't a luxury—it's a hedge against disruption. Cobots offer that reconfigurability at a fraction of the cost of traditional industrial robots.\n\nHas your company explored on-demand manufacturing? What's the biggest hurdle?\n\nSource: https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/",
+      "hashtags": [
+        "supplychain",
+        "cobots",
+        "flexiblemanufacturing",
+        "reshoring",
+        "automation"
+      ],
+      "url": "https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/"
+    },
+    {
+      "full_text": "General-purpose robots have long been the holy grail of factory automation. Theker just raised $85M to turn that vision into reality—not with humanoids, but with reconfigurable machines that adapt to different tasks.\n\nThis approach aligns closely with the cobot philosophy: flexibility over specialization. In high-mix, low-volume manufacturing, the ability to redeploy a robot quickly from assembly to inspection to packaging dramatically improves ROI.\n\nTheker's investment signals strong market demand for versatile automation. For cobot makers, it validates that the industry is moving toward adaptable, multi-task robots rather than single-purpose arms.\n\nHow many different tasks do you run on your cobots in a typical week?\n\nSource: https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+      "hashtags": [
+        "cobots",
+        "flexibility",
+        "automation",
+        "manufacturing",
+        "investment"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/"
+    }
+  ]
+}
