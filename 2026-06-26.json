@@ -1,0 +1,116 @@
+{
+  "digest": [
+    {
+      "title_en": "Hirebotics offers no-code, explosion-proof cobot for painting",
+      "title_zh": "Hirebotics 推出免编程、防爆协作机器人用于喷涂",
+      "source": "The Robot Report",
+      "date": "2026-06-25",
+      "summary_en": "Hirebotics launches a no-code, explosion-proof cobot painter designed for stationary painting tasks. The robot supports paint booth operations, reducing safety risks and simplifying deployment.",
+      "summary_zh": "Hirebotics 推出了一款免编程、防爆的协作机器人喷涂系统，专为固定喷涂任务设计，支持在喷漆房内操作，降低安全风险并简化部署。",
+      "why_en": "Relevant for cobot sales in hazardous environments; showcases demand for easy-to-deploy, safe automation in painting.",
+      "why_zh": "与危险环境中的协作机器人销售相关，展示了喷涂行业对易于部署、安全自动化方案的需求。",
+      "url": "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/"
+    },
+    {
+      "title_en": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "title_zh": "General Intuition 斥资 23 亿美元押注：用视频游戏训练真实世界 AI 代理",
+      "source": "TechCrunch",
+      "date": "2026-06-25",
+      "summary_en": "General Intuition raises $320 million to train AI on millions of hours of gameplay, aiming to transfer learned behaviors to real-world tasks. The company bets on action data to develop human-like intuition.",
+      "summary_zh": "General Intuition 筹集 3.2 亿美元，用数百万小时的游戏数据训练 AI，旨在将学习到的行为迁移到现实世界任务中。公司押注动作数据以开发类似人类的直觉。",
+      "why_en": "Indicates growing investment in AI training methods; could impact future cobot programming and adaptability.",
+      "why_zh": "表明对 AI 训练方法的投资增加，可能影响未来协作机器人的编程和适应性。",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+    },
+    {
+      "title_en": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+      "title_zh": "Agility Robotics 计划通过 SPAC 上市，估值 25 亿美元",
+      "source": "TechCrunch",
+      "date": "2026-06-24",
+      "summary_en": "Agility Robotics, a humanoid robot startup, plans to go public via SPAC with a $2.5 billion valuation. The company expects $620 million in proceeds.",
+      "summary_zh": "人形机器人初创公司 Agility Robotics 计划通过 SPAC 上市，估值 25 亿美元，预计获得 6.2 亿美元收益。",
+      "why_en": "Signals market confidence in humanoid robots; relevant for cobot market positioning and competition.",
+      "why_zh": "表明市场对人形机器人的信心，与协作机器人的市场定位和竞争相关。",
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
+    },
+    {
+      "title_en": "Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot",
+      "title_zh": "Robust.AI 为第三代 Carter 移动机器人选用 Aptiv PULSE 传感器",
+      "source": "The Robot Report",
+      "date": "2026-06-25",
+      "summary_en": "Robust.AI equips its Gen 3 Carter mobile robot with Aptiv's PULSE sensor, which fuses radar and vision data using AI to enable safe movement around people.",
+      "summary_zh": "Robust.AI 为其第三代 Carter 移动机器人搭载 Aptiv 的 PULSE 传感器，该传感器通过 AI 融合雷达和视觉数据，实现安全的人机共存移动。",
+      "why_en": "Highlights advances in sensor fusion for mobile cobots; important for safe human-robot collaboration in dynamic environments.",
+      "why_zh": "突出了移动协作机器人传感器融合的进展，对动态环境中的人机协作安全至关重要。",
+      "url": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/"
+    },
+    {
+      "title_en": "Visual Language Models Train Robots to Read Human Emotions",
+      "title_zh": "视觉语言模型训练机器人阅读人类情绪",
+      "source": "IEEE Spectrum",
+      "date": "2026-06-13",
+      "summary_en": "Researchers use visual language models to help robots interpret human emotions, aiming to improve human-robot interaction. The study addresses the need for emotional intelligence in collaborative robots.",
+      "summary_zh": "研究人员利用视觉语言模型帮助机器人解读人类情绪，旨在改善人机交互。该研究解决了协作机器人对情商的需求。",
+      "why_en": "Relevant for cobots in service or close-proximity manufacturing; emotional awareness can improve collaboration and trust.",
+      "why_zh": "与服务或近距离制造中的协作机器人相关；情绪感知可改善协作和信任。",
+      "url": "https://spectrum.ieee.org/robot-emotions-visual-language-models"
+    }
+  ],
+  "linkedin_posts": [
+    {
+      "full_text": "Painting is one of the most hazardous jobs in manufacturing. Workers face fumes, overspray, and repetitive strain every day. Yet many factories still rely on manual painting or expensive, hard-to-program automation. \n\nHirebotics just launched a no-code, explosion-proof cobot built specifically for paint booths. No specialized programming skills required—just set it up and let it spray. It tackles the safety risks head-on while keeping deployment simple. \n\nFor cobot adoption in finishing applications, this is a practical step forward. It lowers the barrier for shops that have been hesitant to automate painting. In a labor-constrained market, solutions like this can help manufacturers protect workers and maintain throughput. \n\nWhat's been the biggest obstacle to automating painting in your shop? \n\nSource: https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
+      "hashtags": [
+        "cobotics",
+        "painting",
+        "manufacturing",
+        "safety",
+        "automation"
+      ],
+      "url": "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/"
+    },
+    {
+      "full_text": "Training robots for real-world tasks still takes too much time and data. The bottleneck isn't hardware anymore—it's how we teach them to behave. \n\nGeneral Intuition just raised $320M to tackle this by training AI on millions of hours of video game gameplay. Their thesis: action data from games can transfer to physical tasks, building intuition without real-world trials. \n\nIf this approach scales, it could drastically shorten cobot programming time. Instead of hand-coding every path, a cobot could learn from simulation and adapt quickly to new parts. That's a potential leap in flexibility for high-mix manufacturing. \n\nBut can simulation really bridge the gap to unpredictable shop floors? I'm watching this space closely. \n\nSource: https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "hashtags": [
+        "AI",
+        "robotics",
+        "manufacturing",
+        "simulation",
+        "cobots"
+      ],
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+    },
+    {
+      "full_text": "Humanoid robots are moving from research labs to the public market. Agility Robotics just announced plans to go public via SPAC at a $2.5B valuation. \n\nThe move signals that investors see a viable path for humanoids in logistics and manufacturing—areas where cobots are already established. But humanoids come with different trade-offs: higher complexity, more sensors, and a price tag that's still out of reach for most small shops. \n\nFor the cobot industry, this competition is healthy. It pushes everyone to improve payload, reach, and ease of use. But I still believe that for 80% of factory tasks, a simpler, cost-effective cobot arm is the better fit. Humanoids are intriguing, but the pragmatic choice for most manufacturers remains a collaborative arm. \n\nDo you see humanoids replacing cobots on the factory floor, or will they coexist? \n\nSource: https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "hashtags": [
+        "humanoids",
+        "cobots",
+        "manufacturing",
+        "automation",
+        "SPAC"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
+    },
+    {
+      "full_text": "One of the biggest bottlenecks in high-mix manufacturing is still material flow. Moving parts between stations eats up time and floor space. Mobile manipulators offer a solution, but only if they can navigate safely around people. \n\nRobust.AI's Gen 3 Carter robot now uses Aptiv's PULSE sensor, which fuses radar and vision with AI. The goal: reliable human detection and collision avoidance in dynamic environments. \n\nFor sites considering autonomous mobile robots (AMRs) with cobot arms, this is a critical development. Better sensing means less need for safety barriers, which lowers deployment costs and improves flexibility. The sensor fusion approach—combining radar and vision—is becoming the standard for safe mobile cobots. \n\nHave you deployed mobile cobots in your facility? What's your experience with safety integration? \n\nSource: https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
+      "hashtags": [
+        "AMR",
+        "cobots",
+        "safety",
+        "sensorfusion",
+        "manufacturing"
+      ],
+      "url": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/"
+    },
+    {
+      "full_text": "We talk a lot about robot dexterity, but emotional intelligence is just as important for human-robot collaboration. If a cobot can't read when a worker is stressed or frustrated, the interaction breaks down. \n\nRecent research uses visual language models to help robots interpret human emotions—a step toward more intuitive collaboration. For cobots working side by side with operators on assembly lines, this could mean adapting speed or behaviour based on the person's state. \n\nOf course, this is still early-stage. But the trend is clear: the next frontier in cobot capability isn't just strength or precision—it's perception, including social cues. For manufacturers piloting collaborative cells, emotional awareness could be the difference between a tool and a teammate. \n\nIs emotional intelligence something you'd consider in your cobot selection? \n\nSource: https://spectrum.ieee.org/robot-emotions-visual-language-models",
+      "hashtags": [
+        "humanrobotinteraction",
+        "cobots",
+        "AI",
+        "emotionAI",
+        "manufacturing"
+      ],
+      "url": "https://spectrum.ieee.org/robot-emotions-visual-language-models"
+    }
+  ]
+}
